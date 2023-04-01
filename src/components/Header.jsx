@@ -3,16 +3,18 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from '../assets/amsun-logo.png';
+import './header.css';
 
 function Header() {
   return (
     <header>
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home">13<sup>th</sup> AMSUN Scientific Conference</Navbar.Brand>
+        <Navbar.Brand href="#home"><img src={logo} width="40" height="40" className="d-inline-block align-top" alt="amsun-logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav  className="me-auto header__text-color">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">About</Nav.Link>
             <Nav.Link href="#link">Speakers</Nav.Link>
