@@ -9,7 +9,9 @@ import Header from './components/Header';
 function App() {
   return (
     <Router>
-      <Header />
+      <div className="gradient__bg">
+        <Header />
+      </div>
       <Routes>
         <Route path="/" element={<h1>Home</h1>} />
         <Route path="about" element={<h1>About</h1>} />
