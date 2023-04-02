@@ -1,14 +1,11 @@
 .banner__container {
-  padding: 3rem;
+  padding: 0;
 }
 
 .banner__container-row{
-    padding: 5rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
+
 }
 
 .banner__container h1 {
@@ -32,11 +29,40 @@
 }
 
 .conference__image img {
-
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
     object-position: center;
-    border-radius: 10px;
+    border-radius: 25px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .banner__container {
+    padding: 1rem;
+  }
+  .banner__container h1 {
+    font-size: 2rem;
+  }
+  .banner__container h3 {
+    font-size: 1rem;
+  }
+  .banner__container h4 {
+    font-size: 0.8rem;
+  }
+
+  .banner__container-row{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.conference__image img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  border-radius: 25px;
+}
+
 }
 
 /* background-image: linear-gradient(to right top, #000000, #431a21, #842b2f, #c54430, #ff691a);
