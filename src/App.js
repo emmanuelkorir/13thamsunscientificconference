@@ -11,6 +11,9 @@ import '@fontsource/montserrat';
 import '@fontsource/roboto';
 import '@fontsource/open-sans';
 import { Container } from 'react-bootstrap';
+import Feature from './components/Feature';
+import AboutSection from './components/About';
+import Footer from './components/Footer';	
 
 function App() {
   return (
@@ -20,13 +23,20 @@ function App() {
         <main className="main__content">
           <Container>
             <Routes>
-            <Route path="/" element={<Banner />} />
+            <Route path="/" element={
+            <div>
+            <Banner /> 
+            <AboutSection />
+            <Feature />
+            </div>
+            }/>
             <Route path="about" element={<h1>About</h1>} />
             <Route path="contact" element={<h1>Contact</h1>} />
             </Routes>
           </Container>
         </main>
       </div>
+      <Footer />
     </Router>
   );
 }
