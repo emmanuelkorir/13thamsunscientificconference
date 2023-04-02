@@ -13,7 +13,7 @@ function Banner() {
                 <h4>25-26<sup>th</sup> May, 2023</h4>
                 <h4>Venue: </h4>
             </div>
-            <div className="banner__container-col">
+            <div className="banner__container-col conference-div">
                 <div className="conference__image">
                     <img src={Conference} alt="Conference" />
                 </div>
