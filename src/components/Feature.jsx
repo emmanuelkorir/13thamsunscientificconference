@@ -1,7 +1,7 @@
 import React from 'react';
 import './feature.css';
 import Award from '../assets/award2.JPG';
-import Speaker2 from '../assets/spk2.JPG';
+import Speaker2 from '../assets/spk.JPG';
 import Speaker from '../assets/panel3.JPG';
 
 const Feature = () => {
