@@ -14,6 +14,9 @@ import { Container } from 'react-bootstrap';
 import Feature from './components/Feature';
 import AboutSection from './components/About';
 import Footer from './components/Footer';	
+import Programme from './pages/Programme';
+import Speakers from './pages/Speakers';
+import FAQs from './pages/FAQs';
 
 function App() {
   return (
@@ -30,8 +33,9 @@ function App() {
             <Feature />
             </div>
             }/>
-            <Route path="about" element={<h1>About</h1>} />
-            <Route path="contact" element={<h1>Contact</h1>} />
+            <Route path="programme" element={<Programme />} />
+            <Route path="speakers" element={<Speakers />} />
+            <Route path="FAQs" element={<FAQs />} />
             </Routes>
           </Container>
         </main>
