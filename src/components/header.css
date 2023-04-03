@@ -2,3 +2,13 @@
   background-color: #EEEEEE !important;
   font-family: "Poppins", sans-serif;
 }
+
+@media only screen and (max-width: 768px) {
+  .header__color {
+    position: relative;
+    height: auto;
+    z-index: 1;
+  }
+  
+
+}
