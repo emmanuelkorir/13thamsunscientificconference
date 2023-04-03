@@ -45,3 +45,16 @@
   .footer__copyright {
     text-align: center;
   }
+
+  .website__link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .website__link:hover {
+    color: #ff8c00;
+  }
+
+  .website__link:active {
+    color: #0070f3;
+  }
