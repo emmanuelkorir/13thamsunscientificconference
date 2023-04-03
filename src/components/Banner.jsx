@@ -11,7 +11,7 @@ function Banner() {
                 <h1>13<sup>th</sup>AMSUN Scientific Conference</h1>
                 <h3>Theme: Exploring Frontiers of Medicine through Diversified Research</h3>
                 <h4>25-26<sup>th</sup> May, 2023</h4>
-                <h4>Venue: </h4>
+                <h4>Venue: Chandaria Centre, University of Nairobi Main Campus</h4>
             </div>
             <div className="banner__container-col conference-div">
                 <div className="conference__image">
@@ -25,21 +25,3 @@ function Banner() {
 }
 
 export default Banner
-
-{/* import { Container, Row, Col } from 'react-bootstrap'; <div className="banner__container">
-<Container> 
-    <Row className="banner__container-row">
-        <Col>
-            <h1>13<sup>th</sup>AMSUN Scientific Conference</h1>
-            <h3>Theme: Exploring Frontiers of Medicine through Diversified Research</h3>
-            <h4>25-26<sup>th</sup> May, 2023</h4>
-            <h4>Venue: </h4>
-        </Col>
-        <Col>
-            <div className="conference__image">
-            <img src={Conference} alt="Conference" />
-            </div>
-        </Col>
-    </Row>
-</Container>
-</div> */}
