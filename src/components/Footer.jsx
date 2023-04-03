@@ -7,13 +7,12 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__contact">
         <h3>Contact Us</h3>
-        <p>AMSUN Organization</p>
+        <p>Association of Medical Students of the University of Nairobi (AMSUN)</p>
         <p>Phone: +254 456-7890</p>
-        <p>Email: info@amsun.org</p>
-        <p>Website: <a href="www.amsun-uon.org">wwww.amsun-uon.org</a></p>
+        <p>Email: <a className="website__link" href="mailto:13thamsunscientificconference@gmail.com">13thamsunscientificconference@gmail.com</a></p>
+        <p>Website: <a className="website__link" href="www.amsun-uon.org">www.amsun-uon.org</a></p>
       </div>
       <div className="footer__social">
-        <h3>Connect with Us</h3>
         <ul>
           <li>
             <a href="https://www.instagram.com/amsun">
